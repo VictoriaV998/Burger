@@ -1,0 +1,28 @@
+.hero {
+    background: url('../img/2-layers.png') center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+}
+
+.hero__content{
+    display: flex;
+    align-items: center;
+}
+
+.hero__desc {
+    font-size: 65px;
+    @include lifehack();
+    line-height: 1.1;
+}
+.hero__text {
+    width: 50%;
+    padding-top: 129px;
+}
+
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
